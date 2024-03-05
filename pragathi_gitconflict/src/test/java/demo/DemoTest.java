@@ -11,4 +11,8 @@ public class DemoTest {
 	public void twoTest() {
 		System.out.println("two--executing");
 	}
+	@Test
+	public void threeTest() {
+		System.err.println("three--executing");
+	}
 }
