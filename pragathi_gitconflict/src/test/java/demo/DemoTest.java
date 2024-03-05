@@ -10,4 +10,12 @@ public class DemoTest {
 	public void gitConflict2() {
 		System.out.println(" working");
 	}
+	@Test
+	public void twoTest() {
+		System.out.println("two--executing");
+	}
+	@Test
+	public void threeTest() {
+		System.err.println("three--executing");
+	}
 }
