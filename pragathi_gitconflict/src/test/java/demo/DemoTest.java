@@ -4,9 +4,17 @@ import org.testng.annotations.Test;
 
 public class DemoTest {
 	@Test
-	public void gitConflict() {
+	public void gitConflict1() {
 		System.out.println(" working");
 	}
+	public void gitConflict2() {
+		System.out.println(" working");
+	}
+
+	public void gitConflict3() {
+		System.out.println(" working");
+	}
+
 	@Test
 	public void twoTest() {
 		System.out.println("two--executing");
@@ -15,4 +23,5 @@ public class DemoTest {
 	public void threeTest() {
 		System.err.println("three--executing");
 	}
+
 }
