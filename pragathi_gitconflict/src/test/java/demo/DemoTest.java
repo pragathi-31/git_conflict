@@ -10,4 +10,8 @@ public class DemoTest {
 	public void gitConflict2() {
 		System.out.println(" working");
 	}
+	public void gitConflict3() {
+		System.out.println(" working");
+	}
+
 }
