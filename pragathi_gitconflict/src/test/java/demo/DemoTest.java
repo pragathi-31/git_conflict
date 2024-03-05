@@ -7,4 +7,8 @@ public class DemoTest {
 	public void oneTest() {
 		System.out.println("oneTest--Executing");
 	}
+	@Test
+	public void twoTest() {
+		System.out.println("two--executing");
+	}
 }
